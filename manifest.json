@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "KLMS app",
+  "version": "1.0",
+  "description": "慶應義塾大学のLMS「K-LMS」を快適に使うための拡張機能です。",
+  "permissions": [
+    "cookies",
+    "storage",
+    "activeTab",
+    "https://lms.keio.jp/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
