@@ -6,8 +6,7 @@
   "permissions": [
     "cookies",
     "storage",
-    "activeTab",
-    "https://lms.keio.jp/"
+    "activeTab"
   ],
   "background": {
     "service_worker": "background.js"
@@ -15,14 +14,13 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icon.png",
-      "48": "icon.png",
       "128": "icon.png"
     }
   },
+  "host_permissions": [
+    "https://lms.keio.jp/*"
+  ],
   "icons": {
-    "16": "icon.png",
-    "48": "icon.png",
     "128": "icon.png"
   }
 }

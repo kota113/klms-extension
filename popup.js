@@ -8,6 +8,6 @@ document.getElementById("clearCookies").addEventListener("click", () => {
                 });
             });
         });
-        alert("Cookies cleared!");
+        alert("Cookieをリセットしました。");
     });
 });
